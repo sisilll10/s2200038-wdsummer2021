@@ -13,6 +13,10 @@ header h1 {
   font-size: 30px;
   text-align: center;
 }
+header h1:hover {
+  background-color: rgb(90, 85, 85);
+  color: wheat;
+}
 
 a {
   padding: 5px;
@@ -47,6 +51,10 @@ header {
   text-align: center;
   background-color: rgb(247, 198, 138);
 }
+.tentang h1:hover {
+  background-color: rgb(90, 85, 85);
+  color: wheat;
+}
 .tentang p {
   margin: 0;
   padding: 10px;
@@ -69,4 +77,31 @@ header {
   padding: 25px;
   background-color: rgb(53, 53, 53);
   color: wheat;
+}
+.tentang h2:hover {
+  background-color: rgb(90, 85, 85);
+  color: wheat;
+}
+.tentang h3:hover {
+  background-color: rgb(90, 85, 85);
+  color: wheat;
+}
+.tentang p::first-line {
+  font-size: 15px;
+  color: wheat;
+}
+.tentang *::selection {
+  background: rgb(163, 95, 95);
+  color: #ffeedb;
+}
+.tentang1::first-letter {
+  font-size: 45px;
+  color: rgb(221, 124, 124);
+}
+.tentang2::first-letter {
+  font-size: 45px;
+  color: rgb(221, 124, 124);
+}
+.hubsaya a::before {
+  content: "link-";
 }
