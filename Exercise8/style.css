@@ -1,0 +1,72 @@
+html,
+body {
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffeedb;
+}
+
+header h1 {
+  margin: 0;
+  background-color: rgb(255, 195, 122);
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: rgb(161, 161, 107);
+  transition: 0.5s;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+header {
+  background-color: rgb(255, 204, 143);
+}
+
+.biodata {
+  padding: 15px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+.tentang h1 {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(247, 198, 138);
+}
+.tentang p {
+  margin: 0;
+  padding: 10px;
+
+  background-color: black;
+  color: white;
+}
+.tentang a {
+  color: wheat;
+}
+.tentang ul {
+  padding: 25px;
+  background-color: rgb(53, 50, 50);
+  color: wheat;
+}
+.tentang h5 {
+  font-size: 20px;
+}
+.tentang ol {
+  padding: 25px;
+  background-color: rgb(53, 53, 53);
+  color: wheat;
+}
