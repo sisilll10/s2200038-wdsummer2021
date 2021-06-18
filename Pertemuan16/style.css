@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+header span {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  background-color: lightblue;
+
+  padding: 10px;
+  border: 10px solid blue;
+  margin: 10px;
+}
+.light-blue {
+  background-color: lightblue;
+  padding: 10px;
+  height: 50px;
+}
+.light-red {
+  background-color: lightgreen;
+  padding: 10px;
+  height: 50px;
+}
